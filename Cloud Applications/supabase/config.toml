@@ -1,0 +1,5 @@
+project_id = "veridian-dashboard"
+
+[functions.check-health]
+verify_jwt = false
+entrypoint = "./functions/check-health/index.ts"
